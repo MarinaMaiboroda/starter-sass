@@ -1,0 +1,14 @@
+@import "normalize";
+@import "variables";
+@import "mixin";
+@import "grid";
+
+
+*, *:after, *:before{
+	@include box-sizing;
+}
+
+body{
+	font-family: $main-font;
+	color: $font-color;
+}
